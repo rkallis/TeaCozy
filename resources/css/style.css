@@ -1,0 +1,156 @@
+/* Universal formatting + resetting browser standards*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: grey;
+  opacity; 0.9;
+  text-align: center;
+  margin: 0px;
+  background-color: black;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0px;
+  padding: 10px;
+}
+
+a {
+  color: seashell;
+}
+
+
+/* Header (navigation) bar container */
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: inherit;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav {
+  width: 100%;
+  text-align: right;
+  margin-right: 10px;
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+/* Main part - universal */
+
+main {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 67px;
+}
+
+
+/* Our Mission container */
+
+.our_mission_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+.mission_header{
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+}
+
+
+/* Featured teas container */
+
+.featured_tea_container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+}
+
+.teas img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.teas h4 {
+  padding-top: 0px;  /* Overides universal h4 padding-top */
+}
+
+
+/* Locations container */
+
+.locations_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+}
+
+.location_box {
+  width: 280px;
+  margin:  0px 20px;
+  opacity: 1;
+  padding: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Footer container */
+
+footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.contact {
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+}
